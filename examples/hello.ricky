@@ -1,0 +1,5 @@
+# The traditional greeting.
+fn main() {
+    print "Hello, Ricky!";
+    return 0;
+}

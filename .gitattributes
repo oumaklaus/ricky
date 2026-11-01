@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+*.c text diff=c
+*.h text diff=c
+*.ricky text
+*.md text diff=markdown
+Makefile text

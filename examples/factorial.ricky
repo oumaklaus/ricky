@@ -1,0 +1,19 @@
+# Iterative factorial of 1 .. 10.
+fn fact(n) {
+    let result = 1;
+    while (n > 1) {
+        result = result * n;
+        n = n - 1;
+    }
+    return result;
+}
+
+fn main() {
+    print "Factorials:";
+    let i = 1;
+    while (i <= 10) {
+        print fact(i);
+        i = i + 1;
+    }
+    return 0;
+}

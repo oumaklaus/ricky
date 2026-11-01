@@ -1,0 +1,20 @@
+# Compiler build products
+/ricky
+/a.out
+src/*.o
+*.s
+
+# Static-analysis and coverage output
+*.plist
+*.gcda
+*.gcno
+*.gcov
+
+# IDE and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+
+# Superpowers execution scratch data
+.superpowers/
+docs/superpowers/
